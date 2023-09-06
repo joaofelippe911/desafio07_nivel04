@@ -35,8 +35,8 @@ class Aluno {
 
     function setCpf(int $c) {
         $cpfLength = strlen((string)$c);
-        if ($cpfLength < 11) {
-            throw new Error("CPF precisa ter no mínimo 11 digitos");
+        if ($cpfLength !== 11) {
+            throw new Error("CPF precisa ter exatamente 11 digitos");
         }
 
         $this->cpf = $c;

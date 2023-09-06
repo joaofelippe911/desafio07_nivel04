@@ -12,5 +12,5 @@ echo $aluno->getNome();
 $aluno->setIdade(19);
 echo $aluno->getIdade();
 
-$aluno->setCpf(19264738291);
+$aluno->setCpf(19264739112);
 echo $aluno->getCpf();
